@@ -1,0 +1,39 @@
+/* Global dark mode */
+body {
+    background-color: #121212; /* dark gray/black */
+    color: #ffffff;            /* white text */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Example header */
+header {
+    background-color: #1f1f1f;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Example card with dark background */
+.card {
+    background-color: #1a1a1a;
+    border: 1px solid #333;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 8px;
+}
+
+/* Button in dark mode */
+button {
+    background-color: #ffffff;
+    color: #000000;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+button:hover {
+    background-color: #bbbbbb;
+}
